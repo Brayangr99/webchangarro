@@ -203,7 +203,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/copas.png) no-repeat center center;
+	background: url(../img/copas.jpg) no-repeat center center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -354,7 +354,7 @@ header .intro-text {
 	background-size: cover;
 }
 #bar .section-title{
-	background: #444 url(../img/botellas.png) center center no-repeat fixed;
+	background: #444 url(../img/botellas.jpg) center center no-repeat fixed;
 	background-size: cover;
 }
 
