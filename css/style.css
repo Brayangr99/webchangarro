@@ -111,7 +111,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: #26262667;
+	background-color: #262626be;
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
@@ -151,14 +151,14 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	border-color: rgb(176, 161, 118);
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: rgb(235, 8, 8);
+	background-color: rgb(240, 230, 230);
 }
 .section-title {
 	margin-bottom: 70px;
 }
 .section-title .overlay {
 	padding: 80px 0;
-	background: rgba(38, 38, 38, 0.7);
+	background: rgba(38, 38, 38, 0.829);
 }
 .section-title p {
 	font-size: 22px;
@@ -230,7 +230,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding-top: 5px;
 }
 .intro .overlay {
-	background: rgba(0,0,0,0.38);
+	background: rgba(0, 0, 0, 0.514);
 }
 .intro h1 {
 	font-family: 'Dancing Script', cursive;
@@ -377,7 +377,7 @@ header .intro-text {
 }
 #restaurant-menu .menu-item-price-medida {
 	float: right;
-	font-size: 16px;
+	font-size: 17px;
 	font-weight: 600;
 	color: #555;
 	margin-top: -24px;
