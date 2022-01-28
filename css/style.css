@@ -85,6 +85,16 @@ hr {
 	margin-bottom: 40px;
 	border: 0;
 }
+hr .modificado {
+	height: 2px;
+	width: 70px;
+	text-align: center;
+	position: relative;
+	background: rgba(95, 0, 55, 0.295);
+	margin: 0;
+	margin-bottom: 40px;
+	border: 0;
+}
 .btn:active, .btn.active {
 	background-image: none;
 	outline: 0;
@@ -97,11 +107,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 /* Navigation */
 #menu {
-	padding: 20px;
+	padding: 18px;
 	transition: all 0.8s;
 }
 #menu.navbar-default {
-	background-color: rgba(248, 248, 248, 0);
+	background-color: #26262667;
 	border-color: rgba(231, 231, 231, 0);
 }
 #menu a.navbar-brand {
@@ -122,7 +132,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin: 10px 15px 0 15px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: rgb(176, 161, 118);
+	color: rgb(211, 160, 20);
 }
 .on {
 	background-color: #262626 !important;
@@ -141,7 +151,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	border-color: rgb(176, 161, 118);
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #FFF;
+	background-color: rgb(235, 8, 8);
 }
 .section-title {
 	margin-bottom: 70px;
@@ -210,8 +220,17 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	background-size: cover;
 	-o-background-size: cover;
 }
+.separador-header-body{
+	background-color: var(--blanco);
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.separador-header-body2{
+	background-color: var(--guinda);
+	padding-top: 5px;
+}
 .intro .overlay {
-	background: rgba(0,0,0,0.4);
+	background: rgba(0,0,0,0.38);
 }
 .intro h1 {
 	font-family: 'Dancing Script', cursive;
@@ -280,9 +299,7 @@ header .intro-text {
 #restaurant-menu {
 	padding: 0 0 60px 0;
 }
-#restaurant-menu .section-title {
-	
-}
+
 #restaurant-menu .section-title h2 {
 	color: #fff;
 }
@@ -314,12 +331,40 @@ header .intro-text {
 	margin: 35px 0;
 	font-size: 18px;
 }
+#restaurant-menu .menu-item-tamano {
+	margin: 15px 0;
+	font-size: 18px;
+}
 #restaurant-menu .menu-item-name {
 	font-weight: 600;
 	font-size: 17px;
 	color: #555;
 	border-bottom: 2px dotted rgb(213, 213, 213);
 }
+#restaurant-menu .menu-item-name-sin {
+	font-weight: 600;
+	font-size: 20px;
+	color: #555;
+	border-bottom: 5px dotted rgba(95, 0, 55, 0.329);
+	margin-bottom: 15px;
+	padding-top: 15px;
+}
+#restaurant-menu .menu-item-name-sindos {
+	font-weight: 600;
+	font-size: 20px;
+	color: #555;
+	border-bottom: 5px dotted rgba(95, 0, 55, 0.363);
+	margin-bottom: 15px;
+}
+#restaurant-menu .menu-item-medida {
+	padding-left: 0px;
+	margin-left: 50px;
+	font-weight: 500;
+	font-size: 15px;
+	color: #555;
+	border-bottom: 2px dotted rgb(213, 213, 213);
+}
+
 #restaurant-menu .menu-item-description {
 	font-style: italic;
 	font-size: 15px;
@@ -330,6 +375,14 @@ header .intro-text {
 	color: #555;
 	margin-top: -26px;
 }
+#restaurant-menu .menu-item-price-medida {
+	float: right;
+	font-size: 16px;
+	font-weight: 600;
+	color: #555;
+	margin-top: -24px;
+}
+
 
 /* Para imagenes del menú */
 
@@ -353,8 +406,24 @@ header .intro-text {
 	background: #444 url(../img/fondo_titulo/naranjada.jpg) center center no-repeat fixed;
 	background-size: cover;
 }
-#bar .section-title{
-	background: #444 url(../img/botellas.jpg) center center no-repeat fixed;
+#vinos .section-title{
+	background: #444 url(../img/fondo_titulo/vinos.jpg) center center no-repeat fixed;
+	background-size: cover;
+}
+#brandy .section-title{
+	background: #444 url(../img/fondo_titulo/brandy.jpg) center center no-repeat fixed;
+	background-size: cover;
+}
+#whisky .section-title{
+	background: #444 url(../img/fondo_titulo/whisky.jpg) center center no-repeat fixed;
+	background-size: cover;
+}
+#tequila .section-title{
+	background: #444 url(../img/fondo_titulo/tequila.jpg) center center no-repeat fixed;
+	background-size: cover;
+}
+#cocteles .section-title{
+	background: #444 url(../img/fondo_titulo/coctel.jpg) center center no-repeat fixed;
 	background-size: cover;
 }
 
