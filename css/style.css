@@ -202,7 +202,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/menu.jpg) no-repeat center center;
+	background: url(../img/eventos.jpg) no-repeat center center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -213,7 +213,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/copas.jpg) no-repeat center center;
+	background: url(../img/bar_lejos.jpg) no-repeat center center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -269,7 +269,11 @@ header .intro-text {
 }
 /* About Section */
 #about {
-	padding: 120px 0;
+	padding-top: 120px;
+	padding-bottom: 60px;
+}
+#about-img{
+	padding-bottom: 10px;
 }
 #about h3 {
 	font-size: 20px;
@@ -295,6 +299,16 @@ header .intro-text {
 	line-height: 24px;
 	margin: 15px 0 30px;
 }
+#about-img .text-menu {
+	line-height: 24px;
+	margin: 15px 0 30px;
+}
+#about-img .text-menu h4{
+	font-size: 25px;
+	font-weight: 500;
+}
+
+
 /* Menu Section */
 #restaurant-menu {
 	padding: 0 0 60px 0;
@@ -314,6 +328,7 @@ header .intro-text {
 #restaurant-menu .menu-section hr {
 	margin: 0 auto;
 }
+
 #restaurant-menu .menu-section {
 	margin: 0 20px 80px;
 }
@@ -502,7 +517,7 @@ ol.type li a:hover {
 	transition-property: transform, opacity;
 }
 .portfolio-item {
-	margin: 15px 0;
+	margin: 30px 0;
 }
 .portfolio-item .hover-bg {
 	overflow: hidden;
@@ -555,7 +570,7 @@ ol.type li a:hover {
 /* Team Section */
 #team {
 	color: #fff;
-	background: #444 url(../img/eventos.png) center top no-repeat fixed;
+	background: #444 url(../img/eventos.jpg) center top no-repeat fixed;
 	background-size: cover;
 }
 #team .overlay {
@@ -634,6 +649,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', end
 	margin: 5px 0;
 }
 /* Contact Section */
+.padding-contacto{
+	margin-top: 50px;
+}
+
 #contact {
 	padding: 100px 0 60px 0;
 	background: #F6F6F6;
